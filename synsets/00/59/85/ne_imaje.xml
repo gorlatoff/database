@@ -56,11 +56,35 @@
     <lemma>tie estas / ekzistas</lemma>
     <lemma>ekzistas / ne</lemma>
   </synset>
+  <synset lang="es" verified="false">
+    <lemma>Hay / no hay</lemma>
+    <lemma>no hay / no son</lemma>
+  </synset>
+  <synset lang="fr" verified="false">
+    <lemma>il est / sont pas</lemma>
+    <lemma>il n&apos;y a / ne sont pas</lemma>
+  </synset>
+  <synset lang="it" verified="false">
+    <lemma>Non v&apos;è / non sono</lemma>
+    <lemma>non c&apos;è / non sono</lemma>
+  </synset>
+  <synset lang="pt" verified="false">
+    <lemma>não é / não são</lemma>
+    <lemma>não é / não são</lemma>
+  </synset>
+  <synset lang="da" verified="false">
+    <lemma>der er / ikke er nogen</lemma>
+    <lemma>der er / ikke er</lemma>
+  </synset>
   <synset lang="de" verified="false">
     <lemma>es ist / nicht sind</lemma>
     <lemma>gibt es / sind nicht</lemma>
   </synset>
   <synset lang="nl">
     <lemma>er is/zijn niet/geen</lemma>
+  </synset>
+  <synset lang="he" verified="false">
+    <lemma>יש / אין</lemma>
+    <lemma>יש / אין</lemma>
   </synset>
 </multilingual-synset>

@@ -67,6 +67,26 @@
     <lemma>povos</lemma>
     <lemma>sukcesos</lemma>
   </synset>
+  <synset lang="es" verified="false">
+    <lemma>poder</lemma>
+    <lemma>administrar</lemma>
+  </synset>
+  <synset lang="fr" verified="false">
+    <lemma>pouvoir</lemma>
+    <lemma>gérer</lemma>
+  </synset>
+  <synset lang="it" verified="false">
+    <lemma>essere in grado</lemma>
+    <lemma>gestire</lemma>
+  </synset>
+  <synset lang="pt" verified="false">
+    <lemma>ser capaz</lemma>
+    <lemma>gerenciar</lemma>
+  </synset>
+  <synset lang="da" verified="false">
+    <lemma>være i stand til</lemma>
+    <lemma>styre</lemma>
+  </synset>
   <synset lang="de" verified="false">
     <lemma>in der Lage</lemma>
     <lemma>verwalten</lemma>
@@ -74,5 +94,9 @@
   <synset lang="nl">
     <lemma>kunnen</lemma>
     <lemma>in staat zijn</lemma>
+  </synset>
+  <synset lang="he" verified="false">
+    <lemma>להיות מסוגל</lemma>
+    <lemma>לנהל</lemma>
   </synset>
 </multilingual-synset>

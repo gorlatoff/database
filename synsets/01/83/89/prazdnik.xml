@@ -15,13 +15,15 @@
   </synset>
   <synset lang="be">
     <lemma>свята</lemma>
-    <lemma>фэст</lemma>
   </synset>
   <synset lang="bg" verified="false">
     <lemma>празник</lemma>
   </synset>
   <synset lang="cs">
     <lemma>svátek</lemma>
+  </synset>
+  <synset lang="dsb">
+    <lemma>swěźeń</lemma>
   </synset>
   <synset lang="hr">
     <lemma>praznik</lemma>
@@ -51,10 +53,28 @@
   <synset lang="eo" verified="false">
     <lemma>ferioj</lemma>
   </synset>
+  <synset lang="es" verified="false">
+    <lemma>fiesta</lemma>
+  </synset>
+  <synset lang="fr" verified="false">
+    <lemma>vacances</lemma>
+  </synset>
+  <synset lang="it" verified="false">
+    <lemma>vacanza</lemma>
+  </synset>
+  <synset lang="pt" verified="false">
+    <lemma>feriado</lemma>
+  </synset>
+  <synset lang="da" verified="false">
+    <lemma>ferie</lemma>
+  </synset>
   <synset lang="de" verified="false">
     <lemma>Urlaub</lemma>
   </synset>
   <synset lang="nl">
     <lemma>feestdag</lemma>
+  </synset>
+  <synset lang="he" verified="false">
+    <lemma>החג</lemma>
   </synset>
 </multilingual-synset>
