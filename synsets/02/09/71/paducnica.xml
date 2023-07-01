@@ -12,43 +12,52 @@
     <lemma>epilepsy</lemma>
   </synset>
   <synset lang="be">
-    <lemma>-</lemma>
+    <lemma>эпілепсія</lemma>
+    <lemma>падучка</lemma>
+    <lemma>радзімец</lemma>
+    <lemma>падучая хвароба</lemma>
   </synset>
-  <synset lang="bg">
-    <lemma>-</lemma>
+  <synset lang="bg" verified="false">
+    <lemma>епилепсия</lemma>
   </synset>
   <synset lang="cs">
-    <lemma>-</lemma>
-  </synset>
-  <synset lang="cu">
-    <lemma>-</lemma>
+    <lemma>padoucnice</lemma>
+    <lemma>epilepsie</lemma>
   </synset>
   <synset lang="hr">
-    <lemma>-</lemma>
+    <lemma>padavica</lemma>
+    <lemma>epilepsija</lemma>
   </synset>
   <synset lang="mk">
-    <lemma>-</lemma>
+    <lemma>падавица</lemma>
+    <lemma>епилепсија</lemma>
   </synset>
   <synset lang="pl">
-    <lemma>-</lemma>
+    <lemma>epilepsja</lemma>
+    <lemma>padaczka</lemma>
   </synset>
   <synset lang="ru">
-    <lemma>-</lemma>
+    <lemma>эпилепсия</lemma>
+    <lemma>падучая болезнь</lemma>
   </synset>
-  <synset lang="sk">
-    <lemma>-</lemma>
+  <synset lang="sk" verified="false">
+    <lemma>padúcnice</lemma>
+    <lemma>epilepsia</lemma>
   </synset>
-  <synset lang="sl">
-    <lemma>-</lemma>
+  <synset lang="sl" verified="false">
+    <lemma>epilepsija</lemma>
+    <lemma>epilelsija</lemma>
   </synset>
   <synset lang="sr">
-    <lemma>-</lemma>
+    <lemma>падавица</lemma>
+    <lemma>епилелсија</lemma>
   </synset>
   <synset lang="uk">
-    <lemma>-</lemma>
+    <lemma>епілепсія</lemma>
+    <lemma>падуча хвороба</lemma>
   </synset>
-  <synset lang="eo">
-    <lemma>-</lemma>
+  <synset lang="eo" verified="false">
+    <lemma>epilepsio</lemma>
   </synset>
   <synset lang="es" verified="false">
     <lemma>epilepsia</lemma>
@@ -65,11 +74,11 @@
   <synset lang="da" verified="false">
     <lemma>epilepsi</lemma>
   </synset>
-  <synset lang="de">
-    <lemma>-</lemma>
+  <synset lang="de" verified="false">
+    <lemma>Epilepsie</lemma>
   </synset>
   <synset lang="nl">
-    <lemma>-</lemma>
+    <lemma>epilepsie</lemma>
   </synset>
   <synset lang="he" verified="false">
     <lemma>אפילפסיה</lemma>
