@@ -1,22 +1,23 @@
-name: Import from Google Sheets
+name: Merge into Google Sheets
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
+  pull_request:
+    types: [closed]
+    branches: [beta]
 jobs:
-  pull:
+  push:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        branch: [stable, beta]
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          ref: ${{ matrix.branch }}
+          fetch-depth: 0  # Important: This is required to get the full commit history
 
-      - name: libxml install
-        run: sudo apt-get install -y libxml2-utils
+      - name: Get changed files
+        id: the_changes
+        uses: tj-actions/changed-files@v36
+        with:
+          files: |
+            synsets/**/*.xml
 
       - name: Use Node.js
         uses: actions/setup-node@v3
@@ -28,8 +29,8 @@ jobs:
         with:
           useLockFile: false
 
-      - name: Fetch synsets
-        run: npx isv synsets pull
+      - name: Push changes to Google Sheets
+        run: npx isv synsets push --only ${{ steps.the_changes.outputs.all_changed_files }}
         env:
           ISV_BETA: ${{ matrix.branch != 'stable' && 'true' || 'false' }}
           ISV_DEBUG: 'true'
@@ -42,11 +43,3 @@ jobs:
         with:
           name: database-engine-log
           path: isv-*.log
-
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: synsets
-          message: 'synsets: import from new_interslavic_words_list'
-          author_name: Medžuslovjansky Bot
-          author_email: noreply@interslavic.fun
